@@ -1,18 +1,20 @@
+#!/usr/bin/python3
+
 import palindrome as pal
 
+def TestPalindrome( str_input ):
+    rslt = pal.palindrome_check(str_input)
+    print( str_input, rslt )
+
+TestPalindrome( "Dad" )
+
+TestPalindrome( "Reglar" )
+
 # Finnish for a dealer in lye (caustic soda).
-str = "saippuakivikauppias"
-rslt = pal.palindrome_check(str)
-print( str, rslt )
+TestPalindrome( "saippuakivikauppias" )
 
-str = "No lemon, no melon!"
-rslt = pal.palindrome_check(str);
-print( str, rslt )
+TestPalindrome( "No lemon, no melon!" )
 
-str = "A new order began, a more Roman age bred Rowena."
-rslt = pal.palindrome_check(str)
-print( str, rslt )
+TestPalindrome( "A new order began, a more Roman age bred Rowena." )
 
-str = "Animal loots foliated detail of stool lamina."
-rslt = pal.palindrome_check(str)
-print( str, rslt )
+TestPalindrome( "Animal loots foliated detail of stool lamina." )

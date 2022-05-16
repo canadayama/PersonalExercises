@@ -1,8 +1,8 @@
 import string
 
 def palindrome_check( str_input ):
-    # Set to lowercase and remove all spaces.
-    str_input = str_input.lower().replace( " ", "" )
+    # Remove all spaces and set to lowercase.
+    str_input = str_input.replace( " ", "" ).lower()
     # Remove all punctuation
     str_input = str_input.translate(str.maketrans('', '', string.punctuation))
 
