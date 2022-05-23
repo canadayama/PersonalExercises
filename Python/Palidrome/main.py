@@ -8,7 +8,7 @@ def TestPalindrome( str_input ):
 
 TestPalindrome( "Dad" )
 
-TestPalindrome( "Reglar" )
+TestPalindrome( "Regular" )
 
 # Finnish for a dealer in lye (caustic soda).
 TestPalindrome( "saippuakivikauppias" )
